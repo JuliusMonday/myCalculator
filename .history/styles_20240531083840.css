@@ -74,11 +74,10 @@ button:active {
     .display {
         padding: 10px;
         font-size: 20px;
-        height: 500px;
-        /* margin-bottom: 100px; */
+        height: 00px;
     }
     button {
         padding: 15px;
-        font-size: 20px;
+        font-size: 16px;
     }
 }
