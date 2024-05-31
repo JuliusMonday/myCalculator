@@ -56,14 +56,13 @@ button {
     transition: background-color 0.2s;
 }
 
-/* button:hover {
+button:hover {
     background-color: #f0f0f0;
-} */
+}
 
-/* button:active {
+button:active {
     background-color: #ddd;
-    color:#222;
-} */
+}
 
 /* Responsive Design */
 @media (max-width: 600px) {
@@ -77,27 +76,16 @@ button {
         padding: 10px;
         font-size: 20px;
         height: 500px;
-        border-bottom: 1px solid #F16521 ;
+        border-bottom: 2px #FFA500 ;
     }
     button {
         padding: 15px;
-        font-size: 25px;
+        font-size: 20px;
         background-color:#222;
-        color: #fff;
+        color: #FFA500;
         border: none;
-        font-weight: bold;
+    }
+    body{
         
-    }
-    .oranges{
-        color:#F16521;
-    }
-    .equals{
-        background-color:#F16521;
-        border:none;
-        border-radius: 50%;
-    }
-    
-    p{
-        color:#F16521;
     }
 }
